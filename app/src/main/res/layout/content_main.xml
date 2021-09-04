@@ -15,12 +15,14 @@
         android:layout_marginTop="16dp"
         android:ems="10"
         android:gravity="start|top"
-        android:hint="Note Text"
+        android:hint="@string/note_text_hint"
         android:inputType="textMultiLine"
+        android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="@+id/spinnerCourses"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/spinnerCourses"
-        app:layout_constraintTop_toBottomOf="@+id/textNoteTitle" />
+        app:layout_constraintTop_toBottomOf="@+id/textNoteTitle"
+        android:autofillHints="" />
 
     <Spinner
         android:id="@+id/spinnerCourses"
@@ -29,9 +31,11 @@
         android:layout_marginStart="32dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="32dp"
+        android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
 
     <EditText
         android:id="@+id/textNoteTitle"
@@ -40,8 +44,9 @@
         android:layout_marginTop="8dp"
         android:ems="10"
         android:gravity="start|top"
-        android:hint="Note Title"
+        android:hint="@string/note_title_hint"
         android:inputType="textMultiLine"
+        android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="@+id/spinnerCourses"
         app:layout_constraintStart_toStartOf="@+id/spinnerCourses"
         app:layout_constraintTop_toBottomOf="@+id/spinnerCourses" />

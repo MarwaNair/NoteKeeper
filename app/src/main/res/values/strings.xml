@@ -23,7 +23,12 @@
 
     <string name="title_activity_drawer">DrawerActivity</string>
     <string name="title_activity_items">NoteKeeper</string>
-
+    <string name="note_activity_label">EditNote</string>
+    <string name="note_text_hint">Note Text</string>
+    <string name="note_title_hint">Note Title</string>
+    <string name="nav_share_message">Share</string>
+    <string name="nav_send_message">Send</string>
+    <string name="nav_how_many_msg_format">Notes: %1$d  | Courses: %2$d </string>
 
 
 </resources>
