@@ -6,6 +6,12 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="editTextStyle">@style/RedGreenEditText</item>
+    </style>
+    
+    <style name="RedGreenEditText" parent="Widget.AppCompat.EditText">
+        <item name="android:textColor">@android:color/holo_green_dark</item>
+        <item name="android:textColorHint">@android:color/holo_red_dark</item>
     </style>
 
 
